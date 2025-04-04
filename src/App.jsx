@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ImageSlider from './ImageSlider';
-// import Navbar from './components/Navbar';
 import WomenTopsGrid from './WomenTopsGrid';
 import NewArrival from './NewArrival';
 import Blog from './Blog';
@@ -18,7 +17,7 @@ const App = () => {
 
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <div 
       // className="min-h-screen"
       >
